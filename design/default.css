@@ -1,0 +1,207 @@
+.bienvenue {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+}
+
+
+header {
+  background-color: silver;
+  width: 100%;
+  color: grey;
+  padding-bottom: 0.5px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  background-color: gray;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+section {
+  text-align: center;
+}
+
+h1 {
+  color: blueviolet;
+  font-family: "roboto", arial, sans-serif;
+  text-align: center;
+  font-size: 3.5em;
+  opacity: 0.6;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+h2 {
+  color: blue;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 3em;
+  text-align: center;
+  opacity: 0.5;
+  width: auto;
+  margin: auto;
+}
+
+h3:before {
+  content: "«";
+  color: darkgreen;
+}
+h3 {
+  text-align: center;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  color: darkgreen;
+}
+
+h3:after {
+  content: " » ";
+  color: darkgreen;
+}
+
+h5{
+  color: red;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  color: blueviolet;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 15px;
+} 
+
+li:hover {
+  font-weight: bold;
+}
+
+nav {
+  /* text-align: center; */
+  /* box-shadow: 0px 3px 1px; */
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+/*classes*/
+
+.picture {
+  width: 350px;
+  height: 300px;
+}
+.pictureAngers {
+  height: 220px;
+}
+.date-de-sortit {
+  font-size: 0.7em;
+}
+
+.presentation {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+  font-size: 1.5em;
+  margin: 30px;
+  max-width: 50%;
+  display: block;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.mission {
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  font-size: 1.5em;
+  margin: 40px;
+  max-width: 50%;
+  display: block;
+  justify-content: space-between;
+  float: right;
+}
+
+
+
+
+/*id*/
+
+
+#logo {
+  margin: 20px;
+  width: 10rem;
+  grid-area: 1;
+  
+}
+
+#conexion {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-style: italic;
+
+}
+#menu {
+  margin: 0;
+  padding-left: 15%;
+  background: lightgrey;
+
+}
+
+#articles {
+  width: 350px;
+  left: 250px;
+  margin: 30px;
+  display: inline-block;
+  background-color: lightgray;
+  padding-bottom: 15px;
+  border: 0px black solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#articles:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.3s;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#contact {
+  text-align: center;
+  font-size: 1.5em;
+  border: 2px black double;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 40px;
+}
+
+#myCarousel{
+  border: 2px black solid;
+  border-radius: 20px;
+  color: silver;
+  width: 50rem;
+  padding: 40px;
+  align-items: center;
+}
+
+/* MEDIA */
+
+@media all and (max-width: 800px) {
+  .article {
+    width: 100%;
+    margin: 15px auto;
+  }
+}
