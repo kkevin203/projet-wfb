@@ -129,8 +129,17 @@ nav {
   justify-content: space-between;
   float: right;
 }
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 0; 
+  }
+  
+  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 0px; 
+  }
 
-
+.carousel-control{
+  margin: 20px auto;
+}
 
 
 /*id*/
@@ -193,8 +202,7 @@ nav {
   border-radius: 20px;
   color: silver;
   width: 50rem;
-  padding: 40px;
-  align-items: center;
+  margin: 20px auto;
 }
 
 /* MEDIA */
@@ -203,5 +211,13 @@ nav {
   .article {
     width: 100%;
     margin: 15px auto;
+    
   }
+  
+#logo {
+  margin: 20px;
+  width: 5rem;
+  grid-area: 1;
+  
+}
 }
