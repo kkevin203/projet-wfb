@@ -21,7 +21,7 @@
 			}
 		</style>
 	</head>
-	<title>Les New's de la </title>
+	<title>Les New's de la WFB</title>
 </head>
 
 <!-- corps de la page -->
