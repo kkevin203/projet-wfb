@@ -22,10 +22,11 @@
 	require_once 'front/nav.php';
 	?>
 
-	<h3>locale_filter_matches</h3>
+	<h3>lorem ipsum dolor</h3>
 	<p>
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quos recusandae voluptates veritatis facilis. Ducimus maxime quae ab aspernatur fugiat. Repellendus, ipsa eaque. Libero vero minima accusamus est explicabo voluptatum?
-	</p>
+	</p><br />
+	<p>je fais des test</p>
 
 
 	<body>

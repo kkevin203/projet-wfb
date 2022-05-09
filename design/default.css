@@ -98,8 +98,12 @@ nav {
 /*classes*/
 
 .picture {
-  width: 350px;
+  width: 300px;
   height: 300px;
+}
+.picture img {
+  min-width: 300px;
+  height: 266px;
 }
 .pictureAngers {
   height: 220px;
@@ -129,13 +133,13 @@ nav {
   justify-content: space-between;
   float: right;
 }
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-  right: 0; 
+/* .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 50; 
   }
   
   .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
   left: 0px; 
-  }
+  } */
 
 .carousel-control{
   margin: 20px auto;
@@ -168,7 +172,7 @@ nav {
 }
 
 #articles {
-  width: 350px;
+  width: 300px;
   left: 250px;
   margin: 30px;
   display: inline-block;
@@ -176,8 +180,9 @@ nav {
   padding-bottom: 15px;
   border: 0px black solid;
   border-radius: 10px;
-  overflow: hidden;
+  overflow:hidden;
 }
+
 #articles:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: 0.3s;
@@ -190,7 +195,7 @@ nav {
 
 #contact {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
   border: 2px black double;
   border-radius: 15px;
   padding: 20px;
@@ -218,6 +223,5 @@ nav {
   margin: 20px;
   width: 5rem;
   grid-area: 1;
-  
 }
 }
