@@ -13,18 +13,21 @@
 
             <div class="col">
                 <div id="conexion">
-                    <nav class="nav flex-column">
-                        <a class="nav-link active">Devenir membre</a>
-                        <a class="nav-link">conexion</a>
-                        <a class="nav-link">Facebook</a>
-                        <a class="nav-link">Twitter</a>
-                    </nav>
+                    <a class="btn btn-default" href="https://wolfblue-esport.s2.yapla.com/fr/espace-membres/adhesion/" role="button">Devenir membres</a></br>
+                    <a class="btn btn-default" href="#" role="button">connexion</a></br>
+                    <a class="btn btn-default" href="https://www.facebook.com/wolfblue.esport.7" role="button">Facebook</a></br>
+                    <a class="btn btn-default" href="https://twitter.com/EsportWolfblue" role="button">Twitter</a></br>
                 </div>
             </div>
 
         </div>
     </div>
-
+    <!-- <nav class="nav flex-column">
+        <a class="nav-link active">Devenir membre</a>
+        <a class="nav-link">conexion</a>
+        <a class="nav-link">Facebook</a>
+        <a class="nav-link">Twitter</a>
+    </nav> -->
 
 
 </header>
