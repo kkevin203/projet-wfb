@@ -21,6 +21,7 @@ body {
 * {
   box-sizing: border-box;
 }
+
 section {
   text-align: center;
 }
@@ -50,6 +51,7 @@ h3:before {
   content: "«";
   color: darkgreen;
 }
+
 h3 {
   text-align: center;
   font-size: 1.7em;
@@ -62,9 +64,10 @@ h3:after {
   color: darkgreen;
 }
 
-h5{
+h5 {
   color: red;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -81,7 +84,7 @@ ul {
 li {
   list-style: none;
   margin: 15px;
-} 
+}
 
 li:hover {
   font-weight: bold;
@@ -100,13 +103,16 @@ nav {
   width: 300px;
   height: 300px;
 }
+
 .picture img {
   min-width: 300px;
   height: 266px;
 }
+
 .pictureAngers {
   height: 220px;
 }
+
 .date-de-sortit {
   font-size: 0.7em;
 }
@@ -132,18 +138,44 @@ nav {
   justify-content: space-between;
   float: right;
 }
-/* .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-  right: 50; 
-  }
-  
-  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-  left: 0px; 
-  } */
 
-.carousel-control{
+.carousel-control {
   margin: 20px auto;
 }
 
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav>li {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-brand {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.center-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: auto;
+  max-width: 200px;
+  text-align: center;
+}
+
+.center-nav li {
+  text-align: center;
+  width: 100%;
+}
 
 /*id*/
 
@@ -152,7 +184,7 @@ nav {
   margin: 20px;
   width: 10rem;
   grid-area: 1;
-  
+
 }
 
 #conexion {
@@ -163,11 +195,11 @@ nav {
   font-style: italic;
 
 }
+
 #menu {
-  margin: 0;
+  margin: 0 auto;
   padding-left: 15%;
   background: lightgrey;
-
 }
 
 #articles {
@@ -179,13 +211,14 @@ nav {
   padding-bottom: 15px;
   border: 0px black solid;
   border-radius: 10px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 #articles:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: 0.3s;
 }
+
 #container {
   display: flex;
   flex-wrap: wrap;
@@ -201,7 +234,7 @@ nav {
   margin: 40px;
 }
 
-#myCarousel{
+#myCarousel {
   border: 2px black solid;
   border-radius: 20px;
   color: silver;
@@ -215,12 +248,12 @@ nav {
   .article {
     width: 100%;
     margin: 15px auto;
-    
+
   }
-  
-#logo {
-  margin: 20px;
-  width: 5rem;
-  grid-area: 1;
-}
+
+  #logo {
+    margin: 20px;
+    width: 5rem;
+    grid-area: 1;
+  }
 }
