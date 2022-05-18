@@ -4,7 +4,6 @@
   font-size: 2em;
 }
 
-
 header {
   background-color: silver;
   width: 100%;
@@ -119,24 +118,15 @@ nav {
 
 .presentation {
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: justify;
   font-size: 1.5em;
-  margin: 30px;
-  max-width: 50%;
-  display: block;
-  align-items: flex-end;
-  justify-content: space-between;
 }
 
 .mission {
   font-family: Arial, sans-serif;
-  text-align: justify;
   font-size: 1.5em;
-  margin: 40px;
-  max-width: 50%;
-  display: block;
-  justify-content: space-between;
-  float: right;
+}
+.col-sm-8 {
+  padding: 10px;
 }
 
 .carousel-control {
@@ -150,7 +140,7 @@ nav {
   text-align: center;
 }
 
-.navbar-nav>li {
+.navbar-nav > li {
   display: inline-block;
   float: none;
 }
@@ -179,12 +169,10 @@ nav {
 
 /*id*/
 
-
 #logo {
   margin: 20px;
   width: 10rem;
   grid-area: 1;
-
 }
 
 #conexion {
@@ -193,7 +181,6 @@ nav {
   text-transform: uppercase;
   font-size: 0.7em;
   font-style: italic;
-
 }
 
 #menu {
@@ -248,7 +235,6 @@ nav {
   .article {
     width: 100%;
     margin: 15px auto;
-
   }
 
   #logo {

@@ -40,7 +40,7 @@ class Card
         echo '<div id="articles">
         <a href="premierepages.html"></a>
         <div class="picture">
-            <img src="' . $this->getPicture() . '" alt="notre maillot coté face" />
+            <img src="' . $this->getPicture() . '" alt="notre maillot " />
             <span>' . $this->getTitle() . '</span>
             <span class="date-de-sortit">' . $this->getDate() . '</span>
         </div>
