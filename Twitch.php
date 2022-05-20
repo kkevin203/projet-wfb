@@ -18,9 +18,18 @@ require_once 'front/head.php'
 	// navigation menu 
 	require_once 'front/nav.php';
 	?>
+	<div class="container">
+		<iframe src="https://player.twitch.tv/?channel=wolfblueesport&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+		<iframe
+		  id="chat_embed"
+		  src="https://www.twitch.tv/embed/wolfblueesport/chat?parent=www.example.com"
+		  height="500"
+		  width="350">
+		</iframe>
 
-	<body>
+	</div>
 
+</script>
 	</body>
 	<!-- contact -->
 	<?php

@@ -47,7 +47,7 @@ require_once 'front/head.php'
 				<div class="carousel-item">
 					<img class picture src="picture/geekfest.png" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
-						<h5>Le titre du projet</h5>
+						<h5>FFJV</h5>
 						<span class="date-project">19/03/2022</span>
 						<!-- <p>Pour l'édition 2021, la Fédération Française de Jeux-Vidéo a tenu un stand à la Angers GeekFest. 10 Pc était mis à disposition afin de faire une animation sur des petits jeu indépendants, les jeux du moments et bien sur les fameux jeux en équipe de style Rocket league, Valorant, ou encore Rugby 20.</p> -->
 

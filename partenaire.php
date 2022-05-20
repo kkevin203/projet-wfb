@@ -47,23 +47,6 @@ require_once 'front/head.php'
 	</div>
 </div>	
 
-<!-- <div class="card" style="width: 18rem;">
-  <img src="picture/FFJV_logo02_CMJN.png" class="card-img-top" alt="TeamPulse">
-  <div class="card-body">
-    <h5 class="card-title">Fédération Française du jeu vidéo</h5>
-    <p class="card-text">Créée en 2013, la FFJV mène des actions visant à démocratiser le jeu vidéo en France. Le but premier de la fédération est de changer l'image du gamer encore trop péjorative.</p>
-    <a href="https://www.ffjv.org/fr/accueil" class="btn btn-primary">Découvrire</a>
-  </div>
-
-</div><div class="card" style="width: 18rem;">
-  <img src="picture/teampulse_logo.png" class="card-img-top" alt="TeamPulse">
-  <div class="card-body">
-    <h5 class="card-title">TeamPulseShop</h5>
-    <p class="card-text">L'application gratuite qui simplifie la vie des entraineurs et des joueurs dans le sport Amateur.
-Equipementier sportif officielle de la Wolfblue Esport !.</p>
-    <a href="https://fr.teampulseshop.com/" class="btn btn-primary">Découvrire</a>
-  </div>
-</div> -->
 
 	 <?php
 	// <!-- contact -->

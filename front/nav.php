@@ -15,7 +15,7 @@
                 <a class="nav-link" href="partenaire.php">Partenaire</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="twitch.php">Chaine twitch</a>
+                <a class="nav-link " href="twitch.php">Chaine twitch !</a>
             </li>
         </ul>
     </div>
