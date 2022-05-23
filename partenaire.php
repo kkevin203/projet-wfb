@@ -11,7 +11,7 @@ require_once 'front/head.php'
 	require_once 'front/nav.php';
 	?>
     <div class="container">
-        <div class="card mb-2-g3" style="max-width: 540px;">
+        <div class="card mb-2-g3" style="max-width: 540px;" d-flex justify-content-center>
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="picture/teampulse_logo.png" class="img-fluid rounded-start" alt="TeamPulse">
