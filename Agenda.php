@@ -14,10 +14,11 @@ require_once 'front/head.php'
 
     <section class="bienvenue">
         <h3>Bienvenue</h3>
+        <iframe src="https://calendar.google.com/calendar/embed?src=kkevin203%40gmail.com&ctz=Europe%2FBrussels"
+            style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
         <!-- description -->
-        <p>bienvenue sur notre site </p>
-        <p>Nous sommes une association de jeu vidéo en multigaming.</p>
+        <h1>Agenda de l'association</h1>
     </section>
     <?php
     // articles
