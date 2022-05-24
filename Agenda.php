@@ -14,15 +14,13 @@ require_once 'front/head.php'
 
     <section class="bienvenue">
         <h3>Bienvenue</h3>
+        <!-- description -->
+        <h1>Agenda de l'association</h1>
         <iframe src="https://calendar.google.com/calendar/embed?src=kkevin203%40gmail.com&ctz=Europe%2FBrussels"
             style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-        <!-- description -->
-        <h1>Agenda de l'association</h1>
     </section>
     <?php
-    // articles
-    require_once 'front/articles.php';
     // Contact
     require_once 'front/contact.php';
     // Footer

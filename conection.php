@@ -17,13 +17,11 @@ require_once 'front/head.php'
         <div class="container">
             <div class="row">
                 <div class="col-lg-offset-2 col-md-offset-1 col-md-10 col-lg-8
-        blanc corps_page">
-                    <center>
-                        <div class="alert alert-info">
-                            Vous n'avez pas encore de compte ?
-                            <a href="nouveau_compte">Inscrivez-vous</a> maintenant !
-                        </div>
-                    </center>
+blanc corps_page">
+                    <div class="alert alert-info">
+                        Vous n'avez pas encore de compte ?
+                        <a href="nouveau_compte">Inscrivez-vous</a> maintenant !
+                    </div>
                     <form class="form-horizontal" style="padding-right:20px;">
                         <div class="form-group">
                             <h4 class="gros_titre">Se connecter</h4>
@@ -67,8 +65,7 @@ require_once 'front/head.php'
 
     </section>
     <?php
-    // articles
-    require_once 'front/articles.php';
+
     // Contact
     require_once 'front/contact.php';
     // Footer

@@ -13,9 +13,11 @@
 
             <div class="col">
                 <div id="conexion">
-                    <a class="btn btn-default" href="https://wolfblue-esport.s2.yapla.com/fr/espace-membres/adhesion/" role="button">Devenir membres</a></br>
-                    <a class="btn btn-default" href="#" role="button">connexion</a></br>
-                    <a class="btn btn-default" href="https://www.facebook.com/wolfblue.esport.7" role="button">Facebook</a></br>
+                    <a class="btn btn-default" href="https://wolfblue-esport.s2.yapla.com/fr/espace-membres/adhesion/"
+                        role="button">Devenir membres</a></br>
+                    <a class="btn btn-default" href="./conection.php" role="button">connexion</a></br>
+                    <a class="btn btn-default" href="https://www.facebook.com/wolfblue.esport.7"
+                        role="button">Facebook</a></br>
                     <a class="btn btn-default" href="https://twitter.com/EsportWolfblue" role="button">Twitter</a></br>
                 </div>
             </div>
