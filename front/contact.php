@@ -1,4 +1,6 @@
 <!-- contact -->
+<link rel="stylesheet" type="text/css" href="design/contact.css">
+
 <section>
     <h3>Contact</h3>
     <div id="contact">

@@ -1,10 +1,12 @@
-<section>
-    <h3>articles</h3>
+    <link rel="stylesheet" type="text/css" href="design/article.css">
 
-    <div class="container">
-        <!-- conteneur -->
+    <section>
+        <h3>articles</h3>
 
-        <?php
+        <div class="container">
+            <!-- conteneur -->
+
+            <?php
         require_once 'front/card.php';
         $maillot1 = new Card('Maillot Face', 'notre nouveau maillot', '07 / 12 / 2021', 'picture/ARRIERE-WOLFBLUE.png');
         $maillot2 = new Card('Maillot Dos', 'Notre maillot de dos', '07 / 12 / 2021', 'picture\AVANT-WOLFBLUE.png');
@@ -14,6 +16,6 @@
 
         ?>
 
-    </div>
+        </div>
 
-</section>
+    </section>

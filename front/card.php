@@ -38,7 +38,6 @@ class Card
     public function displayCard()
     {
         echo '<div id="articles">
-        <a href="premierepages.html"></a>
         <div class="picture">
             <img src="' . $this->getPicture() . '" alt="notre maillot " />
             <span>' . $this->getTitle() . '</span>

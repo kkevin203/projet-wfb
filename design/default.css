@@ -1,15 +1,3 @@
-.bienvenue {
-  color: black;
-  text-align: center;
-  font-size: 2em;
-}
-
-header {
-  background-color: silver;
-  width: 100%;
-  color: grey;
-  padding-bottom: 0.5px;
-}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -76,46 +64,7 @@ a:focus {
   color: blueviolet;
 }
 
-ul {
-  padding: 0;
-}
-
-li {
-  list-style: none;
-  margin: 15px;
-}
-
-li:hover {
-  font-weight: bold;
-}
-
-nav {
-  /* text-align: center; */
-  /* box-shadow: 0px 3px 1px; */
-  font-size: 1.5em;
-  padding: 10px;
-}
-
 /*classes*/
-
-.picture {
-  width: 300px;
-  height: 300px;
-}
-
-.picture img {
-  min-width: 300px;
-  height: 266px;
-}
-
-.pictureAngers {
-  height: 220px;
-}
-
-.date-de-sortit {
-  font-size: 0.7em;
-}
-
 .presentation {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.5em;
@@ -125,86 +74,8 @@ nav {
   font-family: Arial, sans-serif;
   font-size: 1.5em;
 }
-.col-sm-8 {
-  padding: 10px;
-}
-
-.carousel-control {
-  margin: 20px auto;
-}
-
-.navbar-nav {
-  float: none;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-.navbar-nav > li {
-  display: inline-block;
-  float: none;
-}
-
-.navbar-brand {
-  float: none;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-.center-nav {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: auto;
-  max-width: 200px;
-  text-align: center;
-}
-
-.center-nav li {
-  text-align: center;
-  width: 100%;
-}
 
 /*id*/
-
-#logo {
-  margin: 20px;
-  width: 10rem;
-  grid-area: 1;
-}
-
-#conexion {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  text-align: right;
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-style: italic;
-}
-
-#menu {
-  margin: 0 auto;
-  padding-left: 15%;
-  background: lightgrey;
-}
-
-#articles {
-  width: 300px;
-  left: 250px;
-  margin: 30px;
-  display: inline-block;
-  background-color: lightgray;
-  padding-bottom: 15px;
-  border: 0px black solid;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-#articles:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  transition: 0.3s;
-}
 
 #container {
   display: flex;
@@ -212,22 +83,8 @@ nav {
   justify-content: space-between;
 }
 
-#contact {
-  text-align: center;
-  font-size: 1.2em;
-  border: 2px black double;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 40px;
-}
 
-#myCarousel {
-  border: 2px black solid;
-  border-radius: 20px;
-  color: silver;
-  width: 50rem;
-  margin: 20px auto;
-}
+
 
 /* MEDIA */
 

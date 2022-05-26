@@ -1,6 +1,7 @@
 <?php
 require_once 'front/head.php'
 ?>
+<link rel="stylesheet" type="text/css" href="./design/carousel.css">
 
 <!-- corps de la page -->
 

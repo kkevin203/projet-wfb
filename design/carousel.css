@@ -1,0 +1,11 @@
+.carousel-control {
+  margin: 20px auto;
+}
+/* id */
+#myCarousel {
+  border: 2px black solid;
+  border-radius: 20px;
+  color: silver;
+  width: 50rem;
+  margin: 20px auto;
+}
