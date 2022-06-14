@@ -1,6 +1,6 @@
     <link rel="stylesheet" type="text/css" href="design/nav.css">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-silver" id="menu">
+    <nav class="navbar navbar-expand-xl navbar-light bg-silver" id="menu">
         <a class="navbar-brand" href="index.php">Acceuil</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -22,7 +22,6 @@ require_once 'front/head.php'
         <iframe id="chat_embed" src="https://www.twitch.tv/embed/wolfblueesport/chat?parent=www.example.com"
             height="500" width="350">
         </iframe>
-
     </div>
 
     </script>
